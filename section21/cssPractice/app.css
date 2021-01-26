@@ -1,0 +1,12 @@
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	text-decoration: blue underline wavy;
+	letter-spacing: 10px;
+	font-size: 100px;
+	font-family: Verdana;
+}
+
+p {
+}

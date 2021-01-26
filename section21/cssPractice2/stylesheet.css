@@ -1,0 +1,79 @@
+a {
+	color: #a8dadc;
+}
+
+span a {
+	color: red;
+}
+
+/*Adjacent selector.  Select only the buttons that are immediatly preceded by by an h2*/
+h2 + button {
+	color: yellow;
+	background-color: blue;
+}
+
+/*Direct Child.  Select only the elements that are direct children of an element*/
+footer > a {
+	color: #a8dadc;
+}
+
+/*Attribute Selector.  Select all input elements where the type attribute is set to "text*/
+input[type="text"] {
+	width: 300px;
+	color: rgb(252, 9, 110);
+}
+
+/*Pseudo Classes*/
+/*keyword added to a selector that specifies a special state of the selected element(s)*/
+
+/*only buttons inside post class.*/
+.post button:hover {
+	background-color: red;
+	color: #f1faee;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.post button:active {
+	background-color: #02c39a;
+}
+
+/*Pseudo Elements*/
+/*keyword added to a selector that lets  you style a particular part of selected elements*/
+/*
+::after
+::before
+::first-letter
+::first-line
+::selection
+*/
+
+h2::first-letter {
+	font-size: 50px;
+}
+
+p::first-line {
+	color: purple;
+}
+
+p::selection {
+	background-color: #fcbf49;
+}
+
+/*Specificity
+!important trumps everything.  override.  do not use most of the time if ever
+Inline style in html >
+ID Selectors > 
+Class, Attribute, & Pseduo-Class Selectors > 
+Element and Pseudo-Element Selectors*/
+
+/*inherit is a keyword to set up inheritance
+example:
+button, input {
+	color: inherit;
+}
+
+
+*/
