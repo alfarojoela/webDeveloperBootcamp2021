@@ -1,0 +1,35 @@
+h1 {
+	background-color: paleturquoise;
+	border: 1px solid black;
+	width: 300px;
+	height: 200px;
+	padding: 50px;
+	margin: 100px;
+}
+
+span {
+	background-color: palevioletred;
+	border: 1px solid black;
+	width: 500px;
+	padding: 100px;
+	margin: 50px;
+
+	/*The following hides the elements but does not delete them.
+    display: none
+    */
+}
+
+div {
+	height: 200px;
+	width: 200px;
+	background-color: olivedrab;
+	border: 5px solid black;
+	display: inline-block;
+	margin: 50px;
+}
+
+section {
+	background-color: #6d6875;
+	width: 800px;
+	height: 800px;
+}
